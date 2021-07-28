@@ -1,0 +1,137 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* common css */
+
+.box-shadow {
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 11px rgb(0 0 0 / 15%);
+}
+h1,
+p {
+  margin: 0pt auto;
+}
+.web-btn {
+  border: none;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+/* nav */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: arial;
+  text-align: left;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+ul.topnav li {
+  float: left;
+  margin-right: 20px;
+  padding: 30px 16px;
+}
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  color: #000;
+}
+ul.topnav li a:hover {
+  color: #fba24f;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+/* top section  */
+.flexible-container {
+  display: flex;
+  margin: 0 5%;
+  justify-content: center;
+}
+.half-width {
+  width: 50%;
+  padding: 0 5%;
+}
+.top-img {
+  width: 100%;
+}
+.half-width h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.heading-color {
+  color: #fba24f;
+}
+
+.top-paragraph {
+  color: #828282;
+  margin-bottom: 50px;
+}
+
+/* about section   */
+
+.about-bg {
+  background-image: url(/images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5%;
+}
+.about-image {
+  width: 82%;
+}
+
+.head-section {
+  text-align: center;
+  padding: 10px 350px;
+  margin-bottom: 40px;
+}
+
+.recipies-part {
+  width: 30%;
+  margin: 30px 30px 100px;
+  padding: 15px;
+}
+
+.recipies-part img {
+  width: 100%;
+}
+
+/* social media part */
+
+.social-content {
+  width: 30%;
+  padding: 70px 50px;
+}
+
+.social-content img {
+  width: 20%;
+}
+
+/* footer  */
+
+footer {
+  margin-top: 100px;
+  background-color: #000;
+  text-align: center;
+  padding: 80px 0;
+  color: #5b5b5b;
+}
+footer h1 {
+  margin-bottom: 40px;
+}
