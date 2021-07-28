@@ -87,7 +87,7 @@ ul.topnav li.right {
 /* about section   */
 
 .about-bg {
-  background-image: url("/images/shapes/Frame58.jpg");
+  background-image: url("./images/shapes/Frame58.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 5%;
